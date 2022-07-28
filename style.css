@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+table tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table td, table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    padding: 1rem;
+}
+
+#actions {
+    display: flex;
+}
